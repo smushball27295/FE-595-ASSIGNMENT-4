@@ -27,8 +27,7 @@ def lin():
     print(max(abs(lin_model.coef_)))
 
 
-if _name_=="_main_":
-    lin()    
+lin()    
 
 ####question 2 
 #Import libraries
@@ -65,6 +64,7 @@ def kmeans():
 
 if _name_=="_main_":
     kmeans()
+    lin()
   
 
 
