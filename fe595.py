@@ -30,7 +30,6 @@ def lin():
 lin()    
 
 ####question 2 
-#Import libraries
 def kmeans():
     import numpy as np
     import pandas as pd
