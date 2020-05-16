@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.datasets import load_iris
 from sklearn import datasets
-import pandas as pd
     
 def kmeans():
     iris_df = pd.DataFrame(iris.data, columns = iris.feature_names)
